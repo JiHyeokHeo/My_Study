@@ -20,9 +20,7 @@ std::mt19937 gen(rd());
 // 0 부터 99 까지 균등하게 나타나는 난수열을 생성하기 위해 균등 분포 정의.
 std::uniform_int_distribution<int> dis(0, 99);
 
-//for (int i = 0; i < 5; i++) {
-//	std::cout << "난수 : " << dis(gen) << std::endl;
-//}
+
 
 //1.분할한다.
 //﻿2. 분할이 끝나면 방을 만든다.
